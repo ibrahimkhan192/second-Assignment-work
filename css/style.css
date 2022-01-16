@@ -47,7 +47,7 @@ section.hero-section{
 }
 
 .hero-items h1{
- font-size: 38px;
+ font-size: 42px;
 }
 
 .hero-items h1 span{
@@ -241,7 +241,7 @@ section.hero-section{
 
 
 @media (max-width:900px){
-  
+
   /* Still working on it, it's a Revolution For me  */
 }
 
