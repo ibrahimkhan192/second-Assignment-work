@@ -47,7 +47,7 @@ section.hero-section{
 }
 
 .hero-items h1{
- font-size: 42px;
+ font-size: 38px;
 }
 
 .hero-items h1 span{
@@ -270,8 +270,7 @@ section.hero-section{
     text-align: center;
   }
   .hero-items{
-    width: 100%;
-
+    width: 80%;
   }
 
   .row{
@@ -288,12 +287,17 @@ section.hero-section{
     padding: 20px 0;
   }
 
-  .offer{
-    width: 100%;
+  .responsive-row{
+    width: 80%;
     display: inline-block;
-    padding: 10px;
-    justify-content: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .responsive-row h1{
+    font-size: 30px;
+
   }
 }
 
