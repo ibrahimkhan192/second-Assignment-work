@@ -185,7 +185,6 @@ section.hero-section{
   display:flex;
   align-items:center;
   flex-wrap:wrap;
-  justify-content:space-around;
  }
  
  .col-2{
@@ -234,4 +233,67 @@ section.hero-section{
  border-radius: 100%;
  margin-top: 10px;
 }
+
+
  /* -=======================Footer Section Ends Here--====================  */
+
+ /*======== media query for menu============ */
+
+
+@media (max-width:900px){
+  
+}
+
+@media only screen and (max-width:688px){
+
+  nav span{
+    display:none;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .hero-section{
+    display: inline-block;
+  }
+  .hero-section img{
+    justify-content: center;
+    width: 300px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+  }
+
+  .hero-position{
+   margin: 100px 10px;
+   padding: 10px;
+    text-align: center;
+  }
+  .hero-items{
+    width: 100%;
+
+  }
+
+  .row{
+     text-align:center;
+  }
+  .col-2, .col-4{
+    flex-basis: 100%;
+  }
+
+  .single-product .row{
+     text-align: left;
+  }
+ .col-2{
+    padding: 20px 0;
+  }
+
+  .offer{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
