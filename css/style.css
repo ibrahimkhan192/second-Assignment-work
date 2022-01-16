@@ -1,0 +1,237 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+ }
+
+
+ /*============== Heder section starts=================== */
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ padding: 5%;
+}
+
+nav a{
+text-decoration: none;
+color: black;
+font-size:1.2em;
+font-family: sans-serif;
+font-weight: 600;
+margin-right: 20px; 
+}
+ /*==============Heder section end================ */
+
+
+/*============= Hero Section start Here=============== */
+section.hero-section{
+ margin: 0px auto;
+}
+
+.hero-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ margin-top: -100px;
+}
+
+.hero-items{
+ width: 100%;
+ padding:8%;
+ font-family: 'Poppins', sans-serif;
+}
+
+.hero-items h1{
+ font-size: 42px;
+}
+
+.hero-items h1 span{
+ color: salmon;
+}
+.hero-items span p{
+ font-weight: 600;
+ margin-top: 15px;
+}
+
+.btn{
+ display: inline-block;
+ background: #ff523f;
+ color: #fff;
+ padding: 8px 30px;
+ margin: 30px 0;
+ border-radius: 30px;
+ transition: background 0.5s;
+ text-decoration: none;
+}
+
+.btn:hover{
+ background: #563434;
+}
+
+/* ===========Hero Section End Here ====================*/
+
+
+
+/*==================Brands Starts Hrere =================*/
+
+.row1{
+ display:flex;
+ align-items:center;
+ flex-wrap:wrap;
+ justify-content:space-around;
+}
+
+.small-container{
+ max-width: 1080px;
+ margin: auto;
+ padding-left: 25px;
+ padding-right: 25px;
+}
+.col-5{
+ width:160px;
+}
+
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.col-5 img:hover{
+ filter: grayscale(0);
+}
+
+/*==================Brands End Hrere =================*/
+
+
+
+/*================== Popular Collection Starts Here================ */
+
+.row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+ }
+
+.title{
+ text-align: center;
+ margin: 50px 80px;
+ position: relative;
+ line-height: 60px;
+ color: #555;
+}
+
+.col-4{
+ flex-basis: 25%;
+ padding: 10px;
+ min-width: 200px;
+ margin-bottom: 50px;
+ margin-right: 20px;
+ border-radius: 10px;
+ line-height: 2;
+ transition:transform 0.5s;
+ box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.col-4 p{
+  line-height: normal;
+  font-weight: 500;
+}
+
+.col-4 img{
+ width: 100%;
+}
+
+.rating .fa{
+  color: #ff523b;
+ }
+.rating span{
+ font-weight: 600;
+}
+
+.see-more-btn h4{
+  text-align: right;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-right: 130px;
+  color: tomato;
+}
+/*================== Popular Collection End Here================ */
+
+/* <!-- ================Offer Section Startys Here====================--> */
+.offer{
+  background: radial-gradient(#fff,#d6feff);
+  margin-top: 80px;
+  padding: 30px 0;
+ }
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+ }
+ 
+ .col-2 .offer-img{
+  padding: 50px;
+ }
+
+ .row{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+ }
+ 
+ .col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+ }
+ 
+ .col-2 img{
+  max-width: 100%;
+  padding: 50;
+ }
+ 
+ .col-2 h1{
+  font-size: 35px;
+  line-height: 60px;
+  margin: 25px 0;
+ }
+ 
+ small{
+  color: #555;
+ }
+ /* <!-- ================Offer Section End Here====================--> */
+
+
+ /* -=======================Footer Section Starts Here--====================  */
+.footer{
+  background-color: rgb(13, 13, 58);
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: white;
+}
+
+.footer h2{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons .fa{
+  background-color:gold;
+ color:black;
+ margin: 0 13px;
+ cursor: pointer;
+ padding:1%;
+ border-radius: 100%;
+ margin-top: 10px;
+}
+ /* -=======================Footer Section Ends Here--====================  */
